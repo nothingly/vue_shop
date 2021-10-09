@@ -1,0 +1,16 @@
+{
+  "id": "2851371",
+  "name": "是哦怕",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7447598",
+      "name": "人像-01",
+      "font_class": "renxiang-",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}

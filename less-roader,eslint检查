@@ -1,0 +1,32 @@
+淘宝源
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+安装webpack-cli
+npm install webpack-cli -g 
+或者
+cnpm install webpack-cli -g 
+
+清除node缓存
+npm cache clean --force 
+
+npm install less-loader@7.3.0 --save-dev
+
+
+关闭vue cli中的eslint检查工具
+注意：（每次更改vue.config.js文件都要重新启动服务器（npm run serve），配置才会生效）
+
+创建vue.config.js
+
+内容如下：
+
+module.exports={
+    devServer:{
+        overlay:{
+            warnings:false, //不显示警告
+            errors:false      //不显示错误
+        }
+    },
+    lintOnSave:false   //关闭eslint检查工具
+}
+
+

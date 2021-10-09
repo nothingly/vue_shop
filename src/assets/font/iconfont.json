@@ -1,0 +1,16 @@
+{
+  "id": "2851398",
+  "name": "002",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "144706",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}
